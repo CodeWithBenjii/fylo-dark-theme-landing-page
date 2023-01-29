@@ -188,7 +188,7 @@ export default function App() {
       </div>
       <footer className="container justify-between grid md:grid-cols-4 gap-8 items-center mx-auto my-40 flow">
         <img src={logo_big} alt="" />
-        <div className="">
+        <div className="flow">
           <div className="flex gap-4 align-center">
             <img src={location} alt="" />
             <p>
