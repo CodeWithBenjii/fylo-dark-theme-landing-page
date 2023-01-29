@@ -186,9 +186,9 @@ export default function App() {
           </button>
         </section>
       </div>
-      <footer className="container mx-auto my-40 flow">
+      <footer className="container justify-between grid md:grid-cols-4 gap-8 items-center mx-auto my-40 flow">
         <img src={logo_big} alt="" />
-        <div className="flow">
+        <div className="">
           <div className="flex gap-4 align-center">
             <img src={location} alt="" />
             <p>
@@ -205,22 +205,17 @@ export default function App() {
             <p>example@fylo.com </p>
           </div>
         </div>
-        <ul className="flex flex-col gap-4 my-4">
+        <ul className="flex flex-col gap-4 md:gap-0">
           <li>About Us</li>
           <li>Jobs</li>
           <li>Press</li>
           <li>Blog</li>
         </ul>
-        <ul className="flex flex-col gap-4">
+        <ul className="flex flex-col gap-4 md:gap-0">
           <li>Contact Us</li>
           <li>Terms</li>
           <li>Privacy</li>
         </ul>
-        <div className="flex">
-          <img src={facebook} />
-          <img src={instagram} />
-          <img src={twitter} />
-        </div>
       </footer>
       <div className="absolute -z-10 w-[140%] -left- top-[5%]">
         <img src={bg} alt="" />
